@@ -79,9 +79,6 @@ const MyNav = styled("nav")`
 const StyledNavLink = styled(NavLink)`
   text-decoration: none;
   color: white;
-  h1:active {
-    color: blue;
-  }
   &:active,
   &:link {
     color: blue;
