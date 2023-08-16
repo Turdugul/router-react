@@ -71,10 +71,10 @@ const MyHeader = styled.header`
 `;
 const MyNav = styled("nav")`
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
   align-items: center;
   color: white;
-  padding: 40px;
+  padding: 10px;
 `;
 const StyledNavLink = styled(NavLink)`
   text-decoration: none;
@@ -93,5 +93,5 @@ const StyledNavLink = styled(NavLink)`
 `;
 
 const Logo = styled.div`
-  padding-right: 550px;
+  padding-right: 700px;
 `;

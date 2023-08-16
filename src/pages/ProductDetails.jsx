@@ -36,16 +36,18 @@ const ProductDetails = () => {
 };
 const Block = styled.div`
   position: relative;
-  transform: translate(40px, 20px);
+  transform: translate(-10px, 20px);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   gap: 0.1rem;
+  padding-left: 40px;
 `;
 const ImageBox = styled.div`
   margin: 20px;
   width: 250px;
   height: 320px;
+  
   background-color: #f5f5e6;
   & > img {
     width: 220px;
